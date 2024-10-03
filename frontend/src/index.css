@@ -138,3 +138,8 @@ body {
 .profile-button-hover {
   background-color: #2b6cb0;
 }
+
+.avatar-container:hover {
+  transform: scale(1.1); /* Slightly enlarge the avatar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Add shadow for depth */
+}

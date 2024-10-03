@@ -1,0 +1,40 @@
+/* Navbar Styles */
+.custom-navbar {
+  background-color: #1c1c1c; /* Dark background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand {
+  font-size: 1.8rem; /* Larger brand name */
+  color: #fff; /* White text */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand .highlight {
+  color: #f39c12; /* Highlight part of brand name */
+}
+
+.navbar-brand:hover {
+  color: #f39c12; /* Hover effect on brand name */
+}
+
+/* Sign-in Button */
+.btn-signin {
+  background-color: #f39c12; /* Orange button */
+  border: none;
+  color: #fff;
+  border-radius: 30px; /* Rounded button */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-signin:hover {
+  background-color: #d35400; /* Darker orange on hover */
+  color: #fff;
+  box-shadow: 0px 4px 12px rgba(243, 156, 18, 0.4);
+}
+
+/* Avatar Container */
+.avatar-container {
+  transition: transform 0.3;
+}
